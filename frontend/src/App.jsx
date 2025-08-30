@@ -41,7 +41,7 @@ function App() {
       formData.append("summaryType", summaryType);
 
       const res = await axios.post(
-        "http://localhost:5000/summarize",
+        "https://summary-generator-uy79.onrender.com/summarize",
         formData,
         { headers: { "Content-Type": "multipart/form-data" } }
       );
