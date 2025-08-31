@@ -1,7 +1,7 @@
 export default function Results({ title, content, bgColor }) {
   if (!content) return null;
 
-  // Clean content: remove *, - etc
+  
   const lines = content
     .split("\n")
     .map((line) => line.replace(/[*]/g, "").trim())

@@ -1,4 +1,3 @@
-// src/components/SummaryOptions.jsx
 export default function SummaryOptions({ summaryType, setSummaryType }) {
   return (
     <div className="my-4 w-full max-w-md">

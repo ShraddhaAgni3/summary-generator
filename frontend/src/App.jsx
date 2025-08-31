@@ -63,7 +63,7 @@ function App() {
       </h1>
 
       <div className="w-full max-w-6xl flex flex-col gap-6">
-        {/* Upload Section - Vertical */}
+       
         <div className="flex flex-col gap-4 bg-gray-50 border border-gray-300 rounded-2xl p-6 shadow-sm">
           <UploadBox onFileSelect={handleFileSelect} onFileRemove={handleRemoveFile} />
           <SummaryOptions summaryType={summaryType} setSummaryType={setSummaryType} />

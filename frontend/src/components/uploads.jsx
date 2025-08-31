@@ -1,4 +1,3 @@
-// src/components/UploadBox.jsx
 import { useDropzone } from "react-dropzone";
 import { useState} from "react";
 
